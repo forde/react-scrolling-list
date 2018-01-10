@@ -1,0 +1,54 @@
+{
+  "name": "react-scrolling-list",
+  "version": "1.0.0",
+  "description": "Scrolling list React component",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "dependencies": {
+    "perfect-scrollbar": "^1.3.0",
+    "react": "^16.2.0",
+    "shortid": "^2.2.8",
+    "styled-components": "^2.4.0",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack",
+    "release": "np",
+    "prepublish": "yarn build"
+  },
+  "author": {
+    "name": "konrad Wegrzyniak",
+    "email": "konrad@forde.pl"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forde/react-scrolling-list.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "scrolling",
+    "list",
+    "scrollable",
+    "container"
+  ],
+  "bugs": {
+    "url": "https://github.com/forde/react-scrolling-list/issues"
+  },
+  "homepage": "https://github.com/forde/react-scrolling-list#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1",
+    "np": "^2.18.2"
+  }
+}
